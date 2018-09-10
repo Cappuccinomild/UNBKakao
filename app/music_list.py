@@ -33,6 +33,9 @@ def search_score(url):  #검색
         
         print(music_area)
 
+        scores = soup.select( 'tr > td.bpmoc' )
+
+        print(scores)
 
 def extract_data():#검색한 코드를 분석
     return 0
